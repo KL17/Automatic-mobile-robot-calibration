@@ -7,7 +7,7 @@ The task of this project is the automatic calibration of a mobile robot which is
 ROS Noetic - Ubuntu 20.04 - Python 3
 
 # Data
-kvadrat2.py - script that contains frame creation functions, frame transformation functions, distance functions, speed controllers (both linear and angular), calibration and plotting function. Basically, script for launching other scripts for frame creation, using them for frame transformation between them and mobile robot, sending square trajectory (5 times clockwise and 5 times counter-clockwise) movement to a robot using that data through speed controllers, writing captured data to a .txt file, using that data for calculating calibration parameters (UMBMark calibration method of a differential robot) and plots it.
+kvadrat2.py - script that contains frame creation functions, frame transformation functions, distance functions, speed controllers (both linear and angular), calibration and plotting function. Basically, script for launching other scripts for frame creation, using them for frame transformation between them and mobile robot, sending square trajectory (5 times clockwise and 5 times counter-clockwise) movement to a robot using that data through speed controllers, writing captured data to a .txt file, using that data for calculating calibration parameters (UMBMark calibration method of a differential robot) and plotting.
 
 odom_pomocni.py - script for creating frame "odom_pomocni" that is used as a global coordinate frame. Square trajectory is defined by transformation between "odom_pomocni" and robot's "base_link". Also used for speed control.
 
