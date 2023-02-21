@@ -1,7 +1,7 @@
 # Automatic-mobile-robot-calibration
 
 # Summary
-The task of this final paper is the automatic calibration of a mobile robot, which is performed by controlling the robot using ROS (Robot Operating System - ROS), in which a node will be used to generate and send a 1x1 m square path (originally 4x4, reduced due to limited area). After that, the actual path of the robot will be recorded by OptiTrack vision system and compared to the reference path. The next step is using the initial and final location recorded by OptiTrack and calculating the calibration parameters of the robot according to the UMBMark calibration method and their implementation in order to correct errors of deviation from the reference path. At the end, the tracking of the trajectories before and after the calibration of the mobile robot is compared using a graphical display.
+The task of this project is the automatic calibration of a mobile robot, which is performed by controlling the robot using ROS (Robot Operating System - ROS), in which a node will be used to generate and send a 1x1 m square path (originally 4x4, reduced due to limited area). After that, the actual path of the robot will be recorded by OptiTrack vision system and compared to the reference path. The next step is using the initial and final location recorded by OptiTrack and calculating the calibration parameters of the robot according to the UMBMark calibration method and their implementation in order to correct errors of deviation from the reference path. At the end, the tracking of the trajectories before and after the calibration of the mobile robot is compared using a graphical display.
 
 # System
 ROS Noetic - Ubuntu 20.04 - Python 3
